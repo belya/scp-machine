@@ -1,5 +1,4 @@
-#include <conio.h>
-//TODO add other includes
+#include <scp_debugger.h>
 void perform_debug(scp_operand operator) {
 	print_debug_info(operator);
 	wait_for_user_action();
